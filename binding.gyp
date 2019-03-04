@@ -2,6 +2,7 @@
   'targets': [
     {
       'target_name': 'xpc-connection',
+      'win_delay_load_hook': 'true',
       'conditions': [
         ['OS=="mac"', {
           'sources': [
